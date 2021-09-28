@@ -14,7 +14,7 @@
     "mochawesome": "^6.2.2"
   },
   "scripts": {
-    "test": "mocha index.test.js --watch --paralel --require @babel/register --reporter mochawesome --timeout 10000"
+    "test": "mocha"
   },
   "author": "mykola_sliepchenko@epam.com",
   "license": "ISC"

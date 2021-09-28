@@ -1,0 +1,14 @@
+extension: ['.spec.js']
+#parallel: true
+reporter: 'mochawesome'
+reporter-option:
+ - 'reportDir=report'
+ - 'reportFilename=index'
+ - 'quiet=true'
+require: '@babel/register'
+slow: 100
+spec: 'index.spec.js'
+timeout: 5000
+watch: true
+watch-files:
+ - './*.js'
