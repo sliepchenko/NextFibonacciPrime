@@ -1,6 +1,6 @@
-import {equal, throws} from 'assert';
+import {equal} from 'assert';
 
-import {isPrimeNumber, getFibonacciNumber, nextPrimeFibonacci, getFib} from './index';
+import {isPrimeNumber, getFibonacciNumber, nextPrimeFibonacci} from './index';
 
 describe('isPrimeNumber', () => {
     describe('Positive case', () => {
